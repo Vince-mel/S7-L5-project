@@ -38,11 +38,11 @@ const generateEventDetails = function (details) {
               class="w-100"
               alt="game picture"
             />
-            <h3 class="text-center mt-4">${details.name}</h3>
-            <p>
+            <h3 class="text-center mt-4 text-light">${details.name}</h3>
+            <p class="text-light">
               ${details.description}
             </p>
-            <p>Prezzo: ${details.price}€</p>
+            <p class="text-light">Prezzo: ${details.price}€</p>
             <button class="btn btn-danger" onclick="deleteEvent()">ELIMINA</button>
             <a class="btn btn-warning" href="./backoffice.html?eventId=${
               details._id
