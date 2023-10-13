@@ -14,7 +14,7 @@ const renderEvents = function (arrayOfEvents) {
       
     
       newCol.innerHTML = `
-      <div class="card">
+      <div class="card border-0 shadow-sm rounded my-4">
           <img src=${event.imageUrl} class="card-img-top" alt="generic concert picture">
           <div class="card-body">
               <h5 class="card-title">${event.name}</h5>
